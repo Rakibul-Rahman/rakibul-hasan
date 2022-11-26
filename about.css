@@ -1,0 +1,164 @@
+/* = = = = = = = google--font--link = = = = = = = */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Kolker+Brush&family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/* = = = = = = = google--font--link--end = = = = = = = */
+
+/* = = = = = = = universal--css = = = = = = = */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* = = = = = = = universal--css--end = = = = = = = */
+
+/* = = = = = = =  = navbar = = = = = = = =  */
+.navbar .navbar-brand {
+    font-size: 1.8000rem;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Fasthand', sans-serif;
+}
+
+.navbar .navbar-brand span {
+    color: #f9004d;
+}
+
+.navbar .navbar-nav 
+.nav-item .nav-link {
+    color: #9d9d9d;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    padding: 0px 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-item 
+.nav-link:hover {
+    color: #f9004d;
+}
+
+/* = = = = =  = = = about--start = = = = = = = = = */
+
+.about-main-content{
+    width: 100%;
+    height: 65vh;
+    background-image: url(./assets/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-main-info{
+    width: 100%;
+    height: auto;
+    /* background: #f9004d; */
+    padding-top: 100px;
+}
+
+.about-main-info .row 
+.about-main-text > h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #f9004d;
+}
+
+.about-main-text .navbar-nav .nav-item{
+    display: inline-block;
+    color: #fff;
+    font-size: 0.9768rem;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+}
+
+.about-main-text .navbar-nav .breadcrumb-item{
+    margin: 0px 5px 0px 5px;
+}
+
+.about-main-text .navbar-nav a.active{
+    color: #f9004d;
+}
+
+/* = = = = = = progress = = = = = = = =  */
+
+.skill-bar{
+    width: 100%;
+    height: auto;
+}
+
+.progress-icon{
+    color: #f9004d;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.skill-bar h3{
+    color: #1f1f25;
+    font-size: 1rem;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+}
+
+.skill-bar h3 span{
+    float: right;
+    margin-bottom: 2px;
+}
+
+.skill-bar ul li{
+    padding: 2px 0px 0px 0px;
+}
+
+.skill-bar ul {
+    padding: 0px 0px 0px 0px;
+}
+
+.bar{
+    height: 6px;
+    background: #717173;
+    border-radius: 5px;
+}
+
+.bar span{
+    height: 6px;
+    background: #f9004d;
+    float: left;
+    border-radius: 5px;
+}
+
+.html{
+    background: #f9004d;
+    width: 95%;
+    animation: html 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+
+.css{
+    background: #f9004d;
+    width: 80%;
+    animation: css 3s;
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+/* = = = = =  = = = about--end = = = = = = = = = */
+
