@@ -38,7 +38,7 @@
         text-align: center;
     }
 
-    .service-content .row .service-text> p {
+    .service-content .row .service-text>p {
         font-family: 'Poppins', sans-serif;
         font-size: 1rem;
         font-weight: 300;
@@ -46,18 +46,18 @@
         text-align: center;
     }
 
-    .contact-content .row .contact-form{
+    .contact-content .row .contact-form {
         width: 100%;
         height: 100%;
         /* background: #f9004d; */
-        padding-top: 0px !important; 
+        padding-top: 0px !important;
     }
 
-    .contact-content .row .contact-form .btn{
+    .contact-content .row .contact-form .btn {
         padding: 8px 35px;
         background: #f9004d;
         margin: 20px 0px 20px 0px !important;
-        font-family: 'Poppins',sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 1rem;
         letter-spacing: 0.5px;
@@ -81,3 +81,4 @@
     }
 
 }
+
